@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hexacyanide/aptmt-dashboard/issues"
   },
-  "homepage": "https://github.com/hexacyanide/aptmt-dashboard#readme"
+  "homepage": "https://github.com/hexacyanide/aptmt-dashboard#readme",
+  "dependencies": {
+    "buffbus-tracker": "git+https://vcs.hexacyanide.com/hexacyanide/node-buffbus-tracker.git",
+    "express": "^4.14.0"
+  }
 }
