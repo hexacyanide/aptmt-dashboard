@@ -1,0 +1,6 @@
+{
+  "name": "aptmt-dashboard",
+  "short_name": "aptmt-dashboard",
+  "start_url": "/",
+  "display": "standalone"
+}
