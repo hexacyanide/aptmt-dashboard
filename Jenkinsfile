@@ -1,9 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('clone') {
       steps {
-        git(url: 'https://github.com/hexacyanide/aptmt-dashboard.git', branch: 'master')
+        git(url: 'https://github.com/hexacyanide/aptmt-dashboard.git', branch: 'jenkins-ci')
+      }
+    }
+    stage('test') {
+      steps {
+        sh 'ls'
       }
     }
   }
