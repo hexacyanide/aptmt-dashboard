@@ -1,0 +1,9 @@
+version: '3'
+services:
+  polymer:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    network_mode: host
+    working_dir: /usr/src/app
+
