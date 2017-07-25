@@ -7,7 +7,7 @@
         display: block;
       }
     </style>
-    <h2>Hello [[prop1]]!</h2>
+    <h2>Hello [[apartmentNumber]]!</h2>
   </template>
 
   <script>
@@ -19,9 +19,9 @@
       static get is() { return 'aptmt-dashboard-app'; }
       static get properties() {
         return {
-          prop1: {
+          apartmentNumber: {
             type: String,
-            value: 'aptmt-dashboard-app'
+            value: '2306'
           }
         };
       }
